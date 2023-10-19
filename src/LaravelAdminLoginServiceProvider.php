@@ -24,7 +24,7 @@ class LaravelAdminLoginServiceProvider  extends ServiceProvider
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/dasturchiuz/laravel-admin-login')],
+                [$assets => public_path('vendor/laravel-admin-login')],
                 'laravel-admin-login'
             );
         }
