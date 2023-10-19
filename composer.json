@@ -1,0 +1,29 @@
+{
+    "name": "dasturchiuz/laravel-admin-login",
+    "description": "cutomize login page laravel-admin",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0",
+        "encore/laravel-admin": ">=1.7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dasturchiuz\\LaravelAdminLogin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dasturchiuz",
+            "email": "dasturchiuz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dasturchiuz\\LaravelAdminLogin\\LaravelAdminLoginServiceProvider"
+            ]
+        }
+    }
+}
